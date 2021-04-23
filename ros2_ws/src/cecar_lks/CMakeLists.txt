@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(CeCar_LKS)
+project(cecar_lks)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -20,20 +20,20 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_executable(lks src/lks.cpp)
-ament_target_dependencies(lks rclcpp std_msgs)
+add_executable(lds src/lds.cpp)
+ament_target_dependencies(lds rclcpp std_msgs)
 
 add_executable(pos src/pos.cpp)
 ament_target_dependencies(pos rclcpp std_msgs)
 
-add_executable(mp src/pos.cpp)
+add_executable(mp src/mp.cpp)
 ament_target_dependencies(mp rclcpp std_msgs)
 
 add_executable(hlc src/hlc.cpp)
 ament_target_dependencies(hlc rclcpp std_msgs)
 
 install(TARGETS
-  lks
+  lds
   pos
   mp
   hlc
