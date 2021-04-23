@@ -1,0 +1,4 @@
+[submodule "cecar-technology"]
+	path = cecar-technology
+	url = git@gitlab.rz.htw-berlin.de:se_cecar/cecar-technology.git
+	branch = ros2
