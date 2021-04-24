@@ -7,9 +7,9 @@
 3. Update git
     
     3.1 windows 10 with git Bash\
-        `git update`\
+        `git update`
 
-    3.2 Ubuntu\
+    3.2 Ubuntu
 
         sudo add-apt-repository ppa:git-core/ppa -y
         sudo apt-get update
