@@ -83,6 +83,7 @@ double pos_cal::getDistance()
   */
 }
 
+
 //Default constructor
 Line::Line()
 {

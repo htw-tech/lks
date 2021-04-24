@@ -1,4 +1,5 @@
 {
+    "C_Cpp.intelliSenseCachePath": "${workspaceFolder}/ipch/",
     "editor.tabSize": 8,
     "editor.rulers": [
         100
