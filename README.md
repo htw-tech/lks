@@ -4,7 +4,8 @@
 # requirements
 1. `sudo apt-get install libncurses5-dev`
 2. `sudo apt-get install libudev-dev`
-3. upate git\ 
+3. Update git
+ 
     3.1 windows 10 with git Bash\
         `git update`\
     3.2 Ubuntu\
