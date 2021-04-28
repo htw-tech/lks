@@ -13,7 +13,7 @@ public:
   hlc_node()
   : Node("hlc_publisher"), count_(0)
   {
-    publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
+    publisher_ = this->create_publisher<std_msgs::msg::String>("topic1", 10);
     timer_ = this->create_wall_timer(
       50ms, std::bind(&hlc_node::timer_callback, this));
   }
@@ -31,13 +31,22 @@ private:
   size_t count_;
 };
 
-
-int main(int argc, char ** argv)
+int main(int argc, char * argv[])
 {
-  (void) argc;
-  (void) argv;
-
-  printf("hello world lks package\n");
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<hlc_node>());
+  rclcpp::shutdown();
   return 0;
 }
+
+
+
+//int main(int argc, char ** argv)
+//{
+ // (void) argc;
+ // (void) argv;
+
+//  printf("hello world lks package\n");
+ // return 0;
+//}
 

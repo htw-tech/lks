@@ -1,0 +1,35 @@
+[0.017s] Invoking command in '/root/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.103s] [ 25%] Built target mp
+[0.103s] [ 50%] Built target hlc
+[0.111s] [ 75%] Built target lds
+[0.115s] [100%] Built target pos
+[0.130s] Invoked command in '/root/mp_lks/ros2_ws/build/cecar_lks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.183s] Invoking command in '/root/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cecar_lks --target install -- -j4 -l4
+[0.259s] [ 25%] Built target lds
+[0.263s] [ 50%] Built target hlc
+[0.268s] [ 75%] Built target pos
+[0.271s] [100%] Built target mp
+[0.295s] [36mInstall the project...[0m
+[0.308s] -- Install configuration: ""
+[0.308s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/lib/cecar_lks/lds
+[0.309s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/lib/cecar_lks/pos
+[0.309s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/lib/cecar_lks/mp
+[0.310s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/lib/cecar_lks/hlc
+[0.310s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/launch
+[0.310s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/launch/lks.launch.py
+[0.311s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/ament_index/resource_index/package_run_dependencies/cecar_lks
+[0.311s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/ament_index/resource_index/parent_prefix_path/cecar_lks
+[0.311s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/environment/ament_prefix_path.sh
+[0.311s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/environment/ament_prefix_path.dsv
+[0.311s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/environment/path.sh
+[0.311s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/environment/path.dsv
+[0.311s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/local_setup.bash
+[0.312s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/local_setup.sh
+[0.312s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/local_setup.zsh
+[0.312s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/local_setup.dsv
+[0.312s] -- Installing: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/package.dsv
+[0.312s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/ament_index/resource_index/packages/cecar_lks
+[0.312s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/cmake/cecar_lksConfig.cmake
+[0.312s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/cmake/cecar_lksConfig-version.cmake
+[0.312s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/package.xml
+[0.316s] Invoked command in '/root/mp_lks/ros2_ws/build/cecar_lks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cecar_lks --target install -- -j4 -l4

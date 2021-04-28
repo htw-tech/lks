@@ -1,0 +1,72 @@
+[0.024s] Invoking command in '/root/mp_lks/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /root/mp_lks/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/root/mp_lks/ros2_ws/install/cpp_pubsub
+[0.151s] -- The C compiler identification is GNU 7.5.0
+[0.270s] -- The CXX compiler identification is GNU 7.5.0
+[0.277s] -- Check for working C compiler: /usr/bin/cc
+[0.365s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.366s] -- Detecting C compiler ABI info
+[0.450s] -- Detecting C compiler ABI info - done
+[0.456s] -- Detecting C compile features
+[0.719s] -- Detecting C compile features - done
+[0.723s] -- Check for working CXX compiler: /usr/bin/c++
+[0.825s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.826s] -- Detecting CXX compiler ABI info
+[0.933s] -- Detecting CXX compiler ABI info - done
+[0.938s] -- Detecting CXX compile features
+[1.371s] -- Detecting CXX compile features - done
+[1.373s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[1.407s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.407s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.656s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.687s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.755s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.758s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.759s] -- Looking for pthread.h
+[1.872s] -- Looking for pthread.h - found
+[1.872s] -- Looking for pthread_create
+[1.969s] -- Looking for pthread_create - not found
+[1.970s] -- Looking for pthread_create in pthreads
+[2.047s] -- Looking for pthread_create in pthreads - not found
+[2.047s] -- Looking for pthread_create in pthread
+[2.131s] -- Looking for pthread_create in pthread - found
+[2.132s] -- Found Threads: TRUE  
+[2.178s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[2.317s] -- Configuring done
+[2.352s] -- Generating done
+[2.354s] -- Build files have been written to: /root/mp_lks/ros2_ws/build/cpp_pubsub
+[2.358s] Invoked command in '/root/mp_lks/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /root/mp_lks/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/root/mp_lks/ros2_ws/install/cpp_pubsub
+[2.361s] Invoking command in '/root/mp_lks/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[2.413s] [35m[1mScanning dependencies of target listener[0m
+[2.414s] [35m[1mScanning dependencies of target talker[0m
+[2.488s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.493s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[6.356s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.581s] [ 75%] Built target talker
+[7.314s] [100%] [32m[1mLinking CXX executable listener[0m
+[7.542s] [100%] Built target listener
+[7.556s] Invoked command in '/root/mp_lks/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[7.592s] Invoking command in '/root/mp_lks/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cpp_pubsub --target install -- -j4 -l4
+[7.663s] [100%] Built target talker
+[7.663s] [100%] Built target listener
+[7.686s] [36mInstall the project...[0m
+[7.698s] -- Install configuration: ""
+[7.698s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[7.699s] -- Set runtime path of "/root/mp_lks/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[7.699s] -- Up-to-date: /root/mp_lks/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[7.699s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[7.700s] -- Set runtime path of "/root/mp_lks/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[7.701s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.701s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.701s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.701s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.701s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.701s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.702s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.702s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.702s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.702s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.702s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.702s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.702s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.702s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.702s] -- Installing: /root/mp_lks/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.708s] Invoked command in '/root/mp_lks/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cpp_pubsub --target install -- -j4 -l4

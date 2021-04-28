@@ -1,0 +1,6 @@
+Invoking command in '/root/mp_lks/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /root/mp_lks/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/root/mp_lks/ros2_ws/install/cpp_pubsub
+Invoked command in '/root/mp_lks/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /root/mp_lks/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/root/mp_lks/ros2_ws/install/cpp_pubsub
+Invoking command in '/root/mp_lks/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cpp_pubsub -- -j4 -l4
+Invoked command in '/root/mp_lks/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cpp_pubsub -- -j4 -l4
+Invoking command in '/root/mp_lks/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cpp_pubsub --target install -- -j4 -l4
+Invoked command in '/root/mp_lks/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/mp_lks/ros2_ws/build/cpp_pubsub --target install -- -j4 -l4

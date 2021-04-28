@@ -14,7 +14,7 @@ public:
   mp_node()
   : Node("mp_publisher"), count_(0)
   {
-    publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
+    publisher_ = this->create_publisher<std_msgs::msg::String>("topic12", 10);
     timer_ = this->create_wall_timer(
       50ms, std::bind(&mp_node::timer_callback, this));
   }
@@ -32,12 +32,20 @@ private:
   size_t count_;
 };
 
-int main(int argc, char ** argv)
-{
-  (void) argc;
-  (void) argv;
+//int main(int argc, char ** argv)
+//{
+ // (void) argc;
+ // (void) argv;
 
-  printf("hello world lks package\n");
+  //printf("HHHHello world lks package\n");
+  //return 0;
+//}
+
+int main(int argc, char * argv[])
+{
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<mp_node>());
+  rclcpp::shutdown();
   return 0;
 }
 
