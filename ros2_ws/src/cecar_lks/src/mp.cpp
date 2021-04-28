@@ -14,7 +14,7 @@ public:
   mp_node()
   : Node("mp_publisher"), count_(0)
   {
-    publisher_ = this->create_publisher<std_msgs::msg::String>("topic12", 10);
+    publisher_ = this->create_publisher<std_msgs::msg::String>("topic1", 10);
     timer_ = this->create_wall_timer(
       50ms, std::bind(&mp_node::timer_callback, this));
   }
@@ -26,26 +26,22 @@ private:
     message.data = "Hello, world! from osama" + std::to_string(count_++);
     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
     publisher_->publish(message);
+    printf("Hello MP\n");
   }
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
   size_t count_;
 };
 
-//int main(int argc, char ** argv)
-//{
- // (void) argc;
- // (void) argv;
-
-  //printf("HHHHello world lks package\n");
-  //return 0;
-//}
-
-int main(int argc, char * argv[])
+int main(int argc, char ** argv)
 {
+  (void) argc;
+  (void) argv;
+
   rclcpp::init(argc, argv);
   rclcpp::spin(std::make_shared<mp_node>());
   rclcpp::shutdown();
+
   return 0;
 }
 

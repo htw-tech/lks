@@ -1,8 +1,0 @@
-source;share/cecar_lks/hook/cmake_prefix_path.ps1
-source;share/cecar_lks/hook/cmake_prefix_path.dsv
-source;share/cecar_lks/hook/cmake_prefix_path.sh
-source;share/cecar_lks/local_setup.bash
-source;share/cecar_lks/local_setup.dsv
-source;share/cecar_lks/local_setup.ps1
-source;share/cecar_lks/local_setup.sh
-source;share/cecar_lks/local_setup.zsh

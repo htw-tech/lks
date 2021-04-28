@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target mp[0m
-[ 25%] Built target pos
-[ 37%] [32mBuilding CXX object CMakeFiles/mp.dir/src/mp.cpp.o[0m
-[ 62%] Built target lds
-[ 87%] Built target hlc
-CMakeFiles/mp.dir/build.make:62: recipe for target 'CMakeFiles/mp.dir/src/mp.cpp.o' failed
-CMakeFiles/Makefile2:242: recipe for target 'CMakeFiles/mp.dir/all' failed
-Makefile:140: recipe for target 'all' failed

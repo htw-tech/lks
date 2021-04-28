@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000444] (-) JobUnselected: {'identifier': 'cecar_lks'}
-[0.000492] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
-[0.000912] (-) EventReactorShutdown: {}
