@@ -1,0 +1,4 @@
+Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks --target install -- -j4 -l4
+Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks --target install -- -j4 -l4

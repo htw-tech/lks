@@ -1,0 +1,28 @@
+[0.106s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.201s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.297s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.098s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.146s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.265s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.270s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.375s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[1.836s] -- Configuring done
+[1.930s] -- Generating done
+[1.937s] -- Build files have been written to: /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks
+[2.022s] [35m[1mScanning dependencies of target hlc[0m
+[2.071s] [ 20%] Built target mp
+[2.077s] [ 60%] Built target pos
+[2.078s] [ 60%] Built target lds
+[2.104s] [ 70%] [32mBuilding C object CMakeFiles/hlc.dir/include/Joystick/wordwarvi/rumble.c.o[0m
+[2.243s] [ 80%] [32m[1mLinking CXX executable hlc[0m
+[2.806s] CMakeFiles/hlc.dir/src/hlc.cpp.o: In function `main':
+[2.808s] hlc.cpp:(.text+0x2b8): undefined reference to `play_rumble_effect(int)'
+[2.809s] hlc.cpp:(.text+0x2c0): undefined reference to `play_rumble_effect(int)'
+[2.809s] collect2: error: ld returned 1 exit status
+[2.813s] CMakeFiles/hlc.dir/build.make:188: recipe for target 'hlc' failed
+[2.813s] make[2]: *** [hlc] Error 1
+[2.814s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[2.814s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[2.815s] Makefile:140: recipe for target 'all' failed
+[2.815s] make: *** [all] Error 2
+[2.819s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

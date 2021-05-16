@@ -1,0 +1,19 @@
+[0.098s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.250s] [35m[1mScanning dependencies of target hlc[0m
+[0.297s] [ 77%] Built target mp
+[0.298s] [ 77%] Built target lds
+[0.301s] [ 77%] Built target pos
+[0.330s] [ 77%] [32mBuilding C object CMakeFiles/hlc.dir/src/warning.c.o[0m
+[0.331s] [ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[0.386s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[0.387s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:315:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[0.387s]  [01;31m[K}[m[K
+[0.388s]  [01;31m[K^[m[K
+[0.392s] CMakeFiles/hlc.dir/build.make:86: recipe for target 'CMakeFiles/hlc.dir/src/warning.c.o' failed
+[0.392s] make[2]: *** [CMakeFiles/hlc.dir/src/warning.c.o] Error 1
+[0.392s] make[2]: *** Waiting for unfinished jobs....
+[8.952s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[8.953s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[8.954s] Makefile:140: recipe for target 'all' failed
+[8.954s] make: *** [all] Error 2
+[8.960s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

@@ -1,0 +1,22 @@
+[0.099s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.251s] [35m[1mScanning dependencies of target hlc[0m
+[0.302s] [ 77%] Built target pos
+[0.307s] [ 77%] Built target mp
+[0.309s] [ 77%] Built target lds
+[0.333s] [ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[0.336s] [ 77%] [32mBuilding C object CMakeFiles/hlc.dir/src/warning.c.o[0m
+[0.390s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:95:36:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Kjoyrumble_init[m[K’
+[0.391s]  void __attribute__ ((constructor)) [01;31m[Kjoyrumble_init[m[K(void)
+[0.392s]                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.393s] In file included from [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:15:0[m[K:
+[0.393s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/include/warning.h:12:5:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kjoyrumble_init[m[K’ was here
+[0.394s]  int [01;36m[Kjoyrumble_init[m[K(void);
+[0.394s]      [01;36m[K^~~~~~~~~~~~~~[m[K
+[0.398s] CMakeFiles/hlc.dir/build.make:86: recipe for target 'CMakeFiles/hlc.dir/src/warning.c.o' failed
+[0.399s] make[2]: *** [CMakeFiles/hlc.dir/src/warning.c.o] Error 1
+[0.399s] make[2]: *** Waiting for unfinished jobs....
+[9.068s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[9.069s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[9.070s] Makefile:140: recipe for target 'all' failed
+[9.071s] make: *** [all] Error 2
+[9.075s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

@@ -1,0 +1,16 @@
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:251:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   printf("Strong:%d\n",int_strong[joy])[01;31m[K)[m[K;
+                                        [01;31m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:251:40:[m[K [01;31m[Kerror: [m[Kexpected statement before ‘[01m[K)[m[K’ token
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:252:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   printf("Weak:%d\n",int_weak[joy])[01;31m[K)[m[K;
+                                    [01;31m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:252:36:[m[K [01;31m[Kerror: [m[Kexpected statement before ‘[01m[K)[m[K’ token
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:253:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   printf("Duration:%d\n",int_duration[joy])[01;31m[K)[m[K;
+                                            [01;31m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:253:44:[m[K [01;31m[Kerror: [m[Kexpected statement before ‘[01m[K)[m[K’ token
+make[2]: *** [CMakeFiles/hlc.dir/src/warning.c.o] Error 1
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2

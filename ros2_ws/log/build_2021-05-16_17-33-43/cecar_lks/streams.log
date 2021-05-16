@@ -1,0 +1,53 @@
+[0.102s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.273s] [35m[1mScanning dependencies of target hlc[0m
+[0.345s] [ 77%] Built target mp
+[0.353s] [ 77%] Built target lds
+[0.366s] [ 77%] Built target pos
+[0.374s] [ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[0.400s] [ 77%] [32mBuilding C object CMakeFiles/hlc.dir/src/warning.c.o[0m
+[0.460s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[0.461s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:276:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[0.462s]   if (effects[joy].u.rumble.strong_magnitude [01;35m[K<[m[K 0)
+[0.462s]                                              [01;35m[K^[m[K
+[0.463s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:279:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[0.463s]   if (effects[joy].u.rumble.strong_magnitude [01;35m[K>[m[K 65535)
+[0.463s]                                              [01;35m[K^[m[K
+[0.464s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:282:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[0.465s]   if (effects[joy].u.rumble.weak_magnitude [01;35m[K<[m[K 0)
+[0.465s]                                            [01;35m[K^[m[K
+[0.466s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:285:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[0.466s]   if (effects[joy].u.rumble.weak_magnitude [01;35m[K>[m[K 65535)
+[0.466s]                                            [01;35m[K^[m[K
+[10.595s] [ 77%] [32m[1mLinking CXX executable hlc[0m
+[11.252s] [ 77%] Built target hlc
+[11.293s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[11.483s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks --target install -- -j4 -l4
+[11.693s] [ 77%] Built target lds
+[11.695s] [ 77%] Built target mp
+[11.716s] [ 77%] Built target hlc
+[11.717s] [ 77%] Built target pos
+[11.786s] [36mInstall the project...[0m
+[11.817s] -- Install configuration: ""
+[11.818s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/lib/cecar_lks/lds
+[11.819s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/lib/cecar_lks/pos
+[11.820s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/lib/cecar_lks/mp
+[11.821s] -- Installing: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/lib/cecar_lks/hlc
+[11.826s] -- Set runtime path of "/home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/lib/cecar_lks/hlc" to ""
+[11.826s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/launch
+[11.827s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/launch/lks.launch.py
+[11.827s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/ament_index/resource_index/package_run_dependencies/cecar_lks
+[11.828s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/ament_index/resource_index/parent_prefix_path/cecar_lks
+[11.829s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/environment/ament_prefix_path.sh
+[11.829s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/environment/ament_prefix_path.dsv
+[11.830s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/environment/path.sh
+[11.830s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/environment/path.dsv
+[11.831s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/local_setup.bash
+[11.832s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/local_setup.sh
+[11.832s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/local_setup.zsh
+[11.833s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/local_setup.dsv
+[11.833s] -- Installing: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/package.dsv
+[11.834s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/ament_index/resource_index/packages/cecar_lks
+[11.834s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/cmake/cecar_lksConfig.cmake
+[11.835s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/cmake/cecar_lksConfig-version.cmake
+[11.835s] -- Up-to-date: /home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks/share/cecar_lks/package.xml
+[11.841s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks --target install -- -j4 -l4

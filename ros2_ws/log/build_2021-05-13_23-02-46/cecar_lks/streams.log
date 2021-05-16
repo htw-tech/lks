@@ -1,0 +1,18 @@
+[0.114s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.347s] [35m[1mScanning dependencies of target hlc[0m
+[0.400s] [ 44%] Built target mp
+[0.400s] [ 55%] Built target lds
+[0.401s] [ 66%] Built target pos
+[0.433s] [ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[3.968s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In member function ‘[01m[Kvoid hlc_node::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.968s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:31:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KGamepadSetRumble[m[K’
+[3.969s]        [01;31m[KGamepadSetRumble[m[K(gpd, 100.0, 100.0);
+[3.969s] 
+[3.969s]        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.682s] make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+[6.683s] CMakeFiles/hlc.dir/build.make:62: recipe for target 'CMakeFiles/hlc.dir/src/hlc.cpp.o' failed
+[6.684s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[6.684s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[6.684s] Makefile:140: recipe for target 'all' failed
+[6.685s] make: *** [all] Error 2
+[6.688s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

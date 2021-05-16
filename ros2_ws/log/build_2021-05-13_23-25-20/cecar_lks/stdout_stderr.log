@@ -1,0 +1,27 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks
+[35m[1mScanning dependencies of target hlc[0m
+[ 40%] Built target mp
+[ 40%] Built target lds
+[ 60%] Built target pos
+[ 80%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/hlc.dir/src/rumble.c.o[0m
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/rumble.c:40:10:[m[K [01;31m[Kfatal error: [m[Kcompat.h: No such file or directory
+ #include [01;31m[K"compat.h"[m[K
+          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/hlc.dir/build.make:110: recipe for target 'CMakeFiles/hlc.dir/src/rumble.c.o' failed
+make[2]: *** [CMakeFiles/hlc.dir/src/rumble.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

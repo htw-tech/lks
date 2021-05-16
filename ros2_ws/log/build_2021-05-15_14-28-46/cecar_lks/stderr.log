@@ -1,0 +1,28 @@
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:274:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.strong_magnitude [01;35m[K<[m[K 0)
+                                             [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:277:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.strong_magnitude [01;35m[K>[m[K 65535)
+                                             [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:280:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.weak_magnitude [01;35m[K<[m[K 0)
+                                           [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:283:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.weak_magnitude [01;35m[K>[m[K 65535)
+                                           [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoy_reopen[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:90:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:314:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+CMakeFiles/hlc.dir/src/warning.c.o: In function `main':
+warning.c:(.text+0x9c4): multiple definition of `main'
+CMakeFiles/hlc.dir/src/hlc.cpp.o:hlc.cpp:(.text+0x238): first defined here
+collect2: error: ld returned 1 exit status
+make[2]: *** [hlc] Error 1
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2

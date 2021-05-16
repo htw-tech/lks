@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target hlc[0m
+[ 77%] Built target mp
+[ 77%] Built target lds
+[ 77%] Built target pos
+[ 77%] [32mBuilding C object CMakeFiles/hlc.dir/src/warning.c.o[0m
+CMakeFiles/hlc.dir/build.make:86: recipe for target 'CMakeFiles/hlc.dir/src/warning.c.o' failed
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+Makefile:140: recipe for target 'all' failed

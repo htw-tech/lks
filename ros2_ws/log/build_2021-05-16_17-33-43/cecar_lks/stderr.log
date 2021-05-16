@@ -1,0 +1,13 @@
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:276:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.strong_magnitude [01;35m[K<[m[K 0)
+                                             [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:279:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.strong_magnitude [01;35m[K>[m[K 65535)
+                                             [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:282:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.weak_magnitude [01;35m[K<[m[K 0)
+                                           [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:285:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.weak_magnitude [01;35m[K>[m[K 65535)
+                                           [01;35m[K^[m[K

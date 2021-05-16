@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target hlc[0m
+[ 20%] Built target lds
+[ 40%] Built target mp
+[ 50%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[ 70%] Built target pos
+[ 80%] [32m[1mLinking CXX executable hlc[0m
+CMakeFiles/hlc.dir/build.make:188: recipe for target 'hlc' failed
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+Makefile:140: recipe for target 'all' failed

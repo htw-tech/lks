@@ -1,0 +1,21 @@
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGamepadAddDevice[m[K’ was not declared in this scope
+   [01;31m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+
+   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGamepadUpdate[m[K’
+   [01;36m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+
+   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+   [32m[KGamepadUpdate[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:42:27:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[KGAMEPAD_DEVICE[m[K’ [[01;31m[K-fpermissive[m[K]
+   if (GamepadIsConnected(0[01;31m[K)[m[K)
+
+                           [01;31m[K^[m[K
+In file included from [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:4:0[m[K:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/include/gamepad/gamepad.h:150:26:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KGAMEPAD_BOOL GamepadIsConnected(GAMEPAD_DEVICE)[m[K’
+ GAMEPAD_API GAMEPAD_BOOL [01;36m[KGamepadIsConnected[m[K(GAMEPAD_DEVICE device);
+                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2

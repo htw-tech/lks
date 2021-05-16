@@ -1,0 +1,60 @@
+[0.095s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.249s] [35m[1mScanning dependencies of target hlc[0m
+[0.295s] [ 44%] Built target lds
+[0.296s] [ 44%] Built target mp
+[0.298s] [ 66%] Built target pos
+[0.329s] [ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[3.597s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[3.598s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[3.598s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[3.599s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[3.599s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.600s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[3.601s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.601s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[3.601s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[3.602s]                  from [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:8[m[K:
+[3.602s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In member function ‘[01m[Kvoid hlc_node::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.603s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:28:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpd[m[K’ was not declared in this scope
+[3.603s]   RCLCPP_INFO(this->get_logger(), "Ijoystick '%f'",GamepadStickAngle([01;31m[Kg[m[Kpd,STICK_LEFT));
+[3.604s] 
+[3.605s]                                                                      [01;31m[K^[m[K
+[3.605s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[3.606s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[3.606s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[3.606s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[3.607s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[3.608s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.608s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[3.608s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[3.609s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.609s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:28:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[3.610s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Ijoystick '%f'",GamepadStickAngle(gpd,STICK_LEFT));
+[3.610s] 
+[3.610s]        [01;36m[K^~~~~~~~~~~[m[K
+[3.611s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.611s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kplay_rumble_effects[m[K’ was not declared in this scope
+[3.612s]    [01;31m[Kplay_rumble_effects[m[K(4);
+[3.612s] 
+[3.612s]    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.613s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kplay_rumble_effect[m[K’
+[3.613s]    [01;36m[Kplay_rumble_effects[m[K(4);
+[3.614s] 
+[3.614s]    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.614s]    [32m[Kplay_rumble_effect[m[K
+[3.615s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:42:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep[m[K’ was not declared in this scope
+[3.615s]    [01;31m[Ksleep[m[K(2);
+[3.616s] 
+[3.616s]    [01;31m[K^~~~~[m[K
+[3.616s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:42:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstrsep[m[K’
+[3.617s]    [01;36m[Ksleep[m[K(2);
+[3.617s] 
+[3.617s]    [01;36m[K^~~~~[m[K
+[3.618s]    [32m[Kstrsep[m[K
+[6.352s] CMakeFiles/hlc.dir/build.make:62: recipe for target 'CMakeFiles/hlc.dir/src/hlc.cpp.o' failed
+[6.354s] make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+[6.355s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[6.356s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[6.356s] make: *** [all] Error 2
+[6.357s] Makefile:140: recipe for target 'all' failed
+[6.361s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

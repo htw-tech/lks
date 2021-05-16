@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target hlc[0m
+[ 22%] Built target pos
+[ 44%] Built target lds
+[ 66%] Built target mp
+[ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable hlc[0m
+CMakeFiles/hlc.dir/src/hlc.cpp.o: In function `main':
+hlc.cpp:(.text+0x2b8): undefined reference to `get_ready_to_rumble(char*)'
+hlc.cpp:(.text+0x2c0): undefined reference to `play_rumble_effect(int)'
+hlc.cpp:(.text+0x2c8): undefined reference to `play_rumble_effect(int)'
+collect2: error: ld returned 1 exit status
+CMakeFiles/hlc.dir/build.make:162: recipe for target 'hlc' failed
+make[2]: *** [hlc] Error 1
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

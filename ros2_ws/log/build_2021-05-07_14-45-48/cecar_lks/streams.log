@@ -1,0 +1,34 @@
+[0.101s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.190s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.279s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.057s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.093s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.196s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.200s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.293s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[1.752s] -- Configuring done
+[1.846s] -- Generating done
+[1.852s] -- Build files have been written to: /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks
+[1.950s] [35m[1mScanning dependencies of target hlc[0m
+[2.025s] [ 22%] Built target lds
+[2.057s] [ 44%] Built target pos
+[2.060s] [ 66%] Built target mp
+[2.068s] [ 77%] [32mBuilding C object CMakeFiles/hlc.dir/include/gamepad/gamepad.c.o[0m
+[2.077s] [ 88%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[5.397s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.398s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGamepadAddDevice[m[K’ was not declared in this scope
+[5.398s]    [01;31m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+[5.399s] 
+[5.399s]    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.404s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:38:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGamepadUpdate[m[K’
+[5.404s]    [01;36m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+[5.405s] 
+[5.405s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.406s]    [32m[KGamepadUpdate[m[K
+[8.143s] CMakeFiles/hlc.dir/build.make:62: recipe for target 'CMakeFiles/hlc.dir/src/hlc.cpp.o' failed
+[8.148s] make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+[8.149s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[8.150s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[8.151s] Makefile:140: recipe for target 'all' failed
+[8.154s] make: *** [all] Error 2
+[8.155s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

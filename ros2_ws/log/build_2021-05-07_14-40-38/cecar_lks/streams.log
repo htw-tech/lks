@@ -1,0 +1,21 @@
+[0.101s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.193s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.282s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.072s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.107s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.206s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.210s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.303s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[1.469s] CMake Error at /opt/ros/eloquent/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:62 (message):
+[1.469s]   ament_target_dependencies() the passed package name
+[1.470s]   'include/gamepad/gamepad.c' was not found before
+[1.470s] Call Stack (most recent call first):
+[1.470s]   CMakeLists.txt:33 (ament_target_dependencies)
+[1.471s] 
+[1.471s] 
+[1.472s] -- Configuring incomplete, errors occurred!
+[1.473s] See also "/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks/CMakeFiles/CMakeOutput.log".
+[1.473s] See also "/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks/CMakeFiles/CMakeError.log".
+[1.479s] Makefile:398: recipe for target 'cmake_check_build_system' failed
+[1.480s] make: *** [cmake_check_build_system] Error 1
+[1.485s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

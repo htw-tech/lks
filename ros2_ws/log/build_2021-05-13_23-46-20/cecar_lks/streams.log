@@ -1,0 +1,31 @@
+[0.107s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.217s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.322s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.204s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.244s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.358s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.362s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.463s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[1.979s] -- Configuring done
+[2.071s] -- Generating done
+[2.077s] -- Build files have been written to: /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks
+[2.179s] [35m[1mScanning dependencies of target hlc[0m
+[2.241s] [ 20%] Built target lds
+[2.255s] [ 40%] Built target pos
+[2.272s] [ 60%] Built target mp
+[2.289s] [ 80%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[2.290s] [ 80%] [32mBuilding C object CMakeFiles/hlc.dir/include/gamepad/gamepad.c.o[0m
+[2.310s] [ 90%] [32mBuilding C object CMakeFiles/hlc.dir/include/rumble.c.o[0m
+[2.399s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgamepad.h: No such file or directory
+[2.400s]  #include [01;31m[K"gamepad.h"[m[K
+[2.401s] 
+[2.402s]           [01;31m[K^~~~~~~~~~~[m[K
+[2.402s] compilation terminated.
+[2.406s] CMakeFiles/hlc.dir/build.make:62: recipe for target 'CMakeFiles/hlc.dir/src/hlc.cpp.o' failed
+[2.407s] make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+[2.407s] make[2]: *** Waiting for unfinished jobs....
+[2.531s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[2.532s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[2.532s] Makefile:140: recipe for target 'all' failed
+[2.533s] make: *** [all] Error 2
+[2.538s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

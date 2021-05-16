@@ -1,0 +1,26 @@
+[0.102s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.255s] [35m[1mScanning dependencies of target hlc[0m
+[0.313s] [ 77%] Built target mp
+[0.315s] [ 77%] Built target lds
+[0.331s] [ 77%] Built target pos
+[0.349s] [ 77%] [32mBuilding C object CMakeFiles/hlc.dir/src/warning.c.o[0m
+[0.402s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[0.403s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:251:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[0.404s]    printf("Strong:%d\n",int_strong[joy])[01;31m[K)[m[K;
+[0.405s]                                         [01;31m[K^[m[K
+[0.405s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:251:40:[m[K [01;31m[Kerror: [m[Kexpected statement before ‘[01m[K)[m[K’ token
+[0.406s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:252:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[0.406s]    printf("Weak:%d\n",int_weak[joy])[01;31m[K)[m[K;
+[0.407s]                                     [01;31m[K^[m[K
+[0.407s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:252:36:[m[K [01;31m[Kerror: [m[Kexpected statement before ‘[01m[K)[m[K’ token
+[0.407s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:253:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[0.408s]    printf("Duration:%d\n",int_duration[joy])[01;31m[K)[m[K;
+[0.408s]                                             [01;31m[K^[m[K
+[0.409s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:253:44:[m[K [01;31m[Kerror: [m[Kexpected statement before ‘[01m[K)[m[K’ token
+[0.410s] make[2]: *** [CMakeFiles/hlc.dir/src/warning.c.o] Error 1
+[0.410s] CMakeFiles/hlc.dir/build.make:86: recipe for target 'CMakeFiles/hlc.dir/src/warning.c.o' failed
+[0.411s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[0.411s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[0.412s] Makefile:140: recipe for target 'all' failed
+[0.412s] make: *** [all] Error 2
+[0.416s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

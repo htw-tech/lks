@@ -1,0 +1,4 @@
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:274:24:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  effects[joy].id = -1; /* ID must be set to -1 for every new effect */
+                         

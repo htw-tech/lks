@@ -1,0 +1,11 @@
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:95:36:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Kjoyrumble_init[m[K’
+ void __attribute__ ((constructor)) [01;31m[Kjoyrumble_init[m[K(void)
+                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:15:0[m[K:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/include/warning.h:12:5:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kjoyrumble_init[m[K’ was here
+ int [01;36m[Kjoyrumble_init[m[K(void);
+     [01;36m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/hlc.dir/src/warning.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,8 @@
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/rumble.c:40:10:[m[K [01;31m[Kfatal error: [m[Kcompat.h: No such file or directory
+ #include [01;31m[K"compat.h"[m[K
+          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/hlc.dir/src/rumble.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2

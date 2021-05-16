@@ -29,7 +29,7 @@ ament_target_dependencies(pos rclcpp std_msgs)
 add_executable(mp src/mp.cpp)
 ament_target_dependencies(mp rclcpp std_msgs)
 
-add_executable(hlc src/hlc.cpp)
+add_executable(hlc src/hlc.cpp src/warning.c)
 ament_target_dependencies(hlc rclcpp std_msgs)
 
 install(TARGETS
@@ -43,7 +43,11 @@ install(DIRECTORY
   launch
   DESTINATION share/${PROJECT_NAME})
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
+#For Joystick support:
+target_link_libraries(hlc udev)
+target_include_directories(hlc PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include/)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 # TODO target_link_libraries
 ament_package()

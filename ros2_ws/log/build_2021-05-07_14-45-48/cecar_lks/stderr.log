@@ -1,0 +1,13 @@
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGamepadAddDevice[m[K’ was not declared in this scope
+   [01;31m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+
+   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:38:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGamepadUpdate[m[K’
+   [01;36m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+
+   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+   [32m[KGamepadUpdate[m[K
+make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2

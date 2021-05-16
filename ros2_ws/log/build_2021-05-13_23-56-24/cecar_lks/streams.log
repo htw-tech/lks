@@ -1,0 +1,19 @@
+[0.102s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.298s] [35m[1mScanning dependencies of target hlc[0m
+[0.318s] [ 22%] Built target lds
+[0.325s] [ 44%] Built target mp
+[0.332s] [ 66%] Built target pos
+[0.382s] [ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[10.205s] [ 88%] [32m[1mLinking CXX executable hlc[0m
+[10.800s] CMakeFiles/hlc.dir/src/hlc.cpp.o: In function `main':
+[10.801s] hlc.cpp:(.text+0x2b8): undefined reference to `get_ready_to_rumble(char*)'
+[10.802s] hlc.cpp:(.text+0x2c0): undefined reference to `play_rumble_effect(int)'
+[10.802s] hlc.cpp:(.text+0x2c8): undefined reference to `play_rumble_effect(int)'
+[10.803s] collect2: error: ld returned 1 exit status
+[10.805s] CMakeFiles/hlc.dir/build.make:162: recipe for target 'hlc' failed
+[10.806s] make[2]: *** [hlc] Error 1
+[10.806s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[10.807s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[10.807s] Makefile:140: recipe for target 'all' failed
+[10.808s] make: *** [all] Error 2
+[10.813s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

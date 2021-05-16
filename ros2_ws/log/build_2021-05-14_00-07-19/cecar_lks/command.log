@@ -1,0 +1,2 @@
+Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

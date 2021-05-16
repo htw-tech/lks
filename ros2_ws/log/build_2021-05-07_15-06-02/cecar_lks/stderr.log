@@ -1,0 +1,16 @@
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:38:20:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[KGamepadUpdate()[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+  if ( [01;31m[KGamepadUpdate()[m[K)
+
+       [01;31m[K~~~~~~~~~~~~~^~[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:41:26:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[KGAMEPAD_BOOL GamepadIsConnected(GAMEPAD_DEVICE)[m[K’
+   if (GamepadIsConnected([01;31m[K)[m[K)
+
+                          [01;31m[K^[m[K
+In file included from [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:4:0[m[K:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/include/gamepad/gamepad.h:150:26:[m[K [01;36m[Knote: [m[Kdeclared here
+ GAMEPAD_API GAMEPAD_BOOL [01;36m[KGamepadIsConnected[m[K(GAMEPAD_DEVICE device);
+                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2

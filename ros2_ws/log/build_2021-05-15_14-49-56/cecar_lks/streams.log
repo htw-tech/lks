@@ -1,0 +1,23 @@
+[0.097s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.256s] [35m[1mScanning dependencies of target hlc[0m
+[0.307s] [ 77%] Built target lds
+[0.308s] [ 77%] Built target pos
+[0.315s] [ 77%] Built target mp
+[0.336s] [ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[3.621s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.622s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kusleep[m[K’ was not declared in this scope
+[3.622s]    [01;31m[Kusleep[m[K((2000+100)*1000);
+[3.623s] 
+[3.623s]    [01;31m[K^~~~~~[m[K
+[3.624s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfseek[m[K’
+[3.624s]    [01;36m[Kusleep[m[K((2000+100)*1000);
+[3.625s] 
+[3.625s]    [01;36m[K^~~~~~[m[K
+[3.626s]    [32m[Kfseek[m[K
+[6.363s] CMakeFiles/hlc.dir/build.make:62: recipe for target 'CMakeFiles/hlc.dir/src/hlc.cpp.o' failed
+[6.366s] make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+[6.367s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[6.367s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[6.368s] Makefile:140: recipe for target 'all' failed
+[6.368s] make: *** [all] Error 2
+[6.372s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

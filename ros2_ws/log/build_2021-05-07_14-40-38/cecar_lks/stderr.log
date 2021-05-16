@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/eloquent/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:62 (message):
+  ament_target_dependencies() the passed package name
+  'include/gamepad/gamepad.c' was not found before
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (ament_target_dependencies)
+
+
+make: *** [cmake_check_build_system] Error 1

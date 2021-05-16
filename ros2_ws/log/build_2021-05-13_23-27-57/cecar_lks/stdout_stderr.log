@@ -1,0 +1,15 @@
+[ 60%] Built target pos
+[ 60%] Built target mp
+[ 60%] Built target lds
+[ 70%] [32mBuilding C object CMakeFiles/hlc.dir/src/rumble.c.o[0m
+[ 80%] [32m[1mLinking CXX executable hlc[0m
+CMakeFiles/hlc.dir/src/hlc.cpp.o: In function `main':
+hlc.cpp:(.text+0x2b8): undefined reference to `play_rumble_effect(int)'
+hlc.cpp:(.text+0x2c0): undefined reference to `play_rumble_effect(int)'
+collect2: error: ld returned 1 exit status
+CMakeFiles/hlc.dir/build.make:188: recipe for target 'hlc' failed
+make[2]: *** [hlc] Error 1
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

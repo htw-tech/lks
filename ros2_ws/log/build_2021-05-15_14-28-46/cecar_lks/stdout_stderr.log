@@ -1,0 +1,57 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks
+[35m[1mScanning dependencies of target pos[0m
+[35m[1mScanning dependencies of target mp[0m
+[35m[1mScanning dependencies of target hlc[0m
+[35m[1mScanning dependencies of target lds[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/lds.dir/src/lds.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/mp.dir/src/mp.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/pos.dir/src/pos.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable lds[0m
+[ 77%] [32m[1mLinking CXX executable pos[0m
+[ 77%] Built target lds
+[ 77%] [32mBuilding C object CMakeFiles/hlc.dir/src/warning.c.o[0m
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:274:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.strong_magnitude [01;35m[K<[m[K 0)
+                                             [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:277:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.strong_magnitude [01;35m[K>[m[K 65535)
+                                             [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:280:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.weak_magnitude [01;35m[K<[m[K 0)
+                                           [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:283:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  if (effects[joy].u.rumble.weak_magnitude [01;35m[K>[m[K 65535)
+                                           [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoy_reopen[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:90:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:314:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[ 77%] Built target pos
+[ 77%] [32m[1mLinking CXX executable mp[0m
+[ 77%] Built target mp
+[ 77%] [32m[1mLinking CXX executable hlc[0m
+CMakeFiles/hlc.dir/src/warning.c.o: In function `main':
+warning.c:(.text+0x9c4): multiple definition of `main'
+CMakeFiles/hlc.dir/src/hlc.cpp.o:hlc.cpp:(.text+0x238): first defined here
+collect2: error: ld returned 1 exit status
+CMakeFiles/hlc.dir/build.make:162: recipe for target 'hlc' failed
+make[2]: *** [hlc] Error 1
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

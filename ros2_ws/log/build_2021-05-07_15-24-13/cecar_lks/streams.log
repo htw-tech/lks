@@ -1,0 +1,32 @@
+[0.104s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.259s] [35m[1mScanning dependencies of target hlc[0m
+[0.311s] [ 22%] Built target mp
+[0.347s] [ 44%] Built target pos
+[0.359s] [ 66%] Built target lds
+[0.372s] [ 77%] [32mBuilding C object CMakeFiles/hlc.dir/include/gamepad/gamepad.c.o[0m
+[0.393s] [ 88%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[3.899s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.901s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGamepadAddDevice[m[K’ was not declared in this scope
+[3.901s]    [01;31m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+[3.902s] 
+[3.902s]    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.906s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGamepadUpdate[m[K’
+[3.907s]    [01;36m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+[3.907s] 
+[3.908s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.908s]    [32m[KGamepadUpdate[m[K
+[3.909s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:42:27:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[KGAMEPAD_DEVICE[m[K’ [[01;31m[K-fpermissive[m[K]
+[3.909s]    if (GamepadIsConnected(0[01;31m[K)[m[K)
+[3.910s] 
+[3.910s]                            [01;31m[K^[m[K
+[3.911s] In file included from [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:4:0[m[K:
+[3.911s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/include/gamepad/gamepad.h:150:26:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KGAMEPAD_BOOL GamepadIsConnected(GAMEPAD_DEVICE)[m[K’
+[3.912s]  GAMEPAD_API GAMEPAD_BOOL [01;36m[KGamepadIsConnected[m[K(GAMEPAD_DEVICE device);
+[3.912s]                           [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.749s] CMakeFiles/hlc.dir/build.make:62: recipe for target 'CMakeFiles/hlc.dir/src/hlc.cpp.o' failed
+[6.750s] make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+[6.752s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[6.752s] make: *** [all] Error 2
+[6.753s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[6.754s] Makefile:140: recipe for target 'all' failed
+[6.767s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

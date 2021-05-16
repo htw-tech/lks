@@ -1,0 +1,23 @@
+[0.100s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.257s] [35m[1mScanning dependencies of target hlc[0m
+[0.318s] [ 44%] Built target mp
+[0.319s] [ 44%] Built target lds
+[0.349s] [ 55%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[0.355s] [ 77%] Built target pos
+[3.836s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.837s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGamepadAddDevice[m[K’ was not declared in this scope
+[3.840s]    [01;31m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+[3.841s] 
+[3.842s]    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.843s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGamepadUpdate[m[K’
+[3.844s]    [01;36m[KGamepadAddDevice[m[K(JOYSTICK_PATH);
+[3.844s] 
+[3.845s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.846s]    [32m[KGamepadUpdate[m[K
+[6.656s] CMakeFiles/hlc.dir/build.make:62: recipe for target 'CMakeFiles/hlc.dir/src/hlc.cpp.o' failed
+[6.660s] make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+[6.660s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[6.661s] Makefile:140: recipe for target 'all' failed
+[6.662s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[6.664s] make: *** [all] Error 2
+[6.667s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

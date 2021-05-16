@@ -1,0 +1,59 @@
+[0.112s] Invoking command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4
+[0.236s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.130s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.179s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.299s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.305s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.416s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[1.894s] -- Configuring done
+[2.035s] -- Generating done
+[2.041s] -- Build files have been written to: /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks
+[2.156s] [35m[1mScanning dependencies of target pos[0m
+[2.156s] [35m[1mScanning dependencies of target mp[0m
+[2.157s] [35m[1mScanning dependencies of target hlc[0m
+[2.157s] [35m[1mScanning dependencies of target lds[0m
+[2.243s] [ 77%] [32mBuilding CXX object CMakeFiles/lds.dir/src/lds.cpp.o[0m
+[2.244s] [ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[2.245s] [ 77%] [32mBuilding CXX object CMakeFiles/mp.dir/src/mp.cpp.o[0m
+[2.246s] [ 77%] [32mBuilding CXX object CMakeFiles/pos.dir/src/pos.cpp.o[0m
+[8.697s] [ 77%] [32m[1mLinking CXX executable lds[0m
+[8.883s] [ 77%] [32m[1mLinking CXX executable pos[0m
+[9.052s] [ 77%] Built target lds
+[9.097s] [ 77%] [32mBuilding C object CMakeFiles/hlc.dir/src/warning.c.o[0m
+[9.172s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[9.173s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:274:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[9.174s]   if (effects[joy].u.rumble.strong_magnitude [01;35m[K<[m[K 0)
+[9.175s]                                              [01;35m[K^[m[K
+[9.175s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:277:45:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[9.176s]   if (effects[joy].u.rumble.strong_magnitude [01;35m[K>[m[K 65535)
+[9.177s]                                              [01;35m[K^[m[K
+[9.177s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:280:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[9.178s]   if (effects[joy].u.rumble.weak_magnitude [01;35m[K<[m[K 0)
+[9.179s]                                            [01;35m[K^[m[K
+[9.180s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:283:43:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[9.181s]   if (effects[joy].u.rumble.weak_magnitude [01;35m[K>[m[K 65535)
+[9.182s]                                            [01;35m[K^[m[K
+[9.182s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoy_reopen[m[K’:
+[9.183s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:90:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[9.183s]  [01;35m[K}[m[K
+[9.184s]  [01;35m[K^[m[K
+[9.198s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:[m[K In function ‘[01m[Kjoyrumble[m[K’:
+[9.199s] [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/warning.c:314:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[9.200s]  [01;35m[K}[m[K
+[9.200s]  [01;35m[K^[m[K
+[9.216s] [ 77%] Built target pos
+[11.170s] [ 77%] [32m[1mLinking CXX executable mp[0m
+[11.741s] [ 77%] Built target mp
+[12.641s] [ 77%] [32m[1mLinking CXX executable hlc[0m
+[13.212s] CMakeFiles/hlc.dir/src/warning.c.o: In function `main':
+[13.213s] warning.c:(.text+0x9c4): multiple definition of `main'
+[13.214s] CMakeFiles/hlc.dir/src/hlc.cpp.o:hlc.cpp:(.text+0x238): first defined here
+[13.214s] collect2: error: ld returned 1 exit status
+[13.218s] CMakeFiles/hlc.dir/build.make:162: recipe for target 'hlc' failed
+[13.219s] make[2]: *** [hlc] Error 1
+[13.219s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+[13.220s] make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+[13.220s] make: *** [all] Error 2
+[13.221s] Makefile:140: recipe for target 'all' failed
+[13.225s] Invoked command in '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks -- -j4 -l4

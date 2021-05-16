@@ -1,0 +1,7 @@
+[ 22%] Built target lds
+[ 44%] Built target pos
+[ 66%] Built target mp
+[ 77%] [32m[1mLinking CXX executable hlc[0m
+CMakeFiles/hlc.dir/build.make:162: recipe for target 'hlc' failed
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+Makefile:140: recipe for target 'all' failed

@@ -1,0 +1,29 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks
+[35m[1mScanning dependencies of target lds[0m
+[35m[1mScanning dependencies of target mp[0m
+[35m[1mScanning dependencies of target hlc[0m
+[35m[1mScanning dependencies of target pos[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/lds.dir/src/lds.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/pos.dir/src/pos.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mp.dir/src/mp.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable pos[0m
+[ 66%] [32m[1mLinking CXX executable lds[0m
+[ 66%] Built target pos
+[ 77%] [32mBuilding C object CMakeFiles/hlc.dir/include/Joystick/wordwarvi/rumble.c.o[0m
+[ 77%] Built target lds
+[ 88%] [32m[1mLinking CXX executable mp[0m
+[ 88%] Built target mp
+[100%] [32m[1mLinking CXX executable hlc[0m
+CMakeFiles/hlc.dir/build.make:162: recipe for target 'hlc' failed
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+Makefile:140: recipe for target 'all' failed

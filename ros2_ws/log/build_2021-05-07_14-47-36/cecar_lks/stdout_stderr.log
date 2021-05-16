@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target hlc[0m
+[ 22%] Built target pos
+[ 44%] Built target mp
+[ 66%] Built target lds
+[ 77%] [32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o[0m
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:38:30:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid GamepadUpdate()[m[K’
+   GamepadUpdate(JOYSTICK_PATH[01;31m[K)[m[K;
+
+                              [01;31m[K^[m[K
+In file included from [01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:4:0[m[K:
+[01m[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/include/gamepad/gamepad.h:142:18:[m[K [01;36m[Knote: [m[Kdeclared here
+ GAMEPAD_API void [01;36m[KGamepadUpdate[m[K(void);
+                  [01;36m[K^~~~~~~~~~~~~[m[K
+CMakeFiles/hlc.dir/build.make:62: recipe for target 'CMakeFiles/hlc.dir/src/hlc.cpp.o' failed
+make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed
+make[1]: *** [CMakeFiles/hlc.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

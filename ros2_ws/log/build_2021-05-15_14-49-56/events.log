@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000988] (cecar_lks) JobQueued: {'identifier': 'cecar_lks', 'dependencies': OrderedDict()}
+[0.001910] (cecar_lks) JobStarted: {'identifier': 'cecar_lks'}
+[0.089989] (cecar_lks) JobProgress: {'identifier': 'cecar_lks', 'progress': 'cmake'}
+[0.092200] (cecar_lks) JobProgress: {'identifier': 'cecar_lks', 'progress': 'build'}
+[0.095439] (cecar_lks) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks', '--', '-j4', '-l4'], 'cwd': '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'lks'), ('LC_TIME', 'de_DE.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/lks'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/lks'), ('DESKTOP_SESSION', 'unity'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '6965'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/lks/LKS/mp_lks/ros2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'lks'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:41631'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'lks'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/lks/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '81bd6f1292a1442c98abd2e3ed37d82f'), ('PAPERSIZE', 'a4'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c49581c8_f0b1_40e9_bf72_3eca39594276'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'de_DE.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lks/LKS/mp_lks/ros2_ws/build/cecar_lks'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/lks/LKS/mp_lks/ros2_ws/install/cecar_lks:/opt/ros/eloquent')]), 'shell': False}
+[0.102021] (-) TimerEvent: {}
+[0.202923] (-) TimerEvent: {}
+[0.257324] (cecar_lks) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hlc\x1b[0m\n'}
+[0.303084] (-) TimerEvent: {}
+[0.308442] (cecar_lks) StdoutLine: {'line': b'[ 77%] Built target lds\n'}
+[0.310007] (cecar_lks) StdoutLine: {'line': b'[ 77%] Built target pos\n'}
+[0.316621] (cecar_lks) StdoutLine: {'line': b'[ 77%] Built target mp\n'}
+[0.338341] (cecar_lks) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/hlc.dir/src/hlc.cpp.o\x1b[0m\n'}
+[0.403266] (-) TimerEvent: {}
+[0.503986] (-) TimerEvent: {}
+[0.604702] (-) TimerEvent: {}
+[0.705434] (-) TimerEvent: {}
+[0.806183] (-) TimerEvent: {}
+[0.906981] (-) TimerEvent: {}
+[1.007686] (-) TimerEvent: {}
+[1.108424] (-) TimerEvent: {}
+[1.209143] (-) TimerEvent: {}
+[1.309879] (-) TimerEvent: {}
+[1.410656] (-) TimerEvent: {}
+[1.511368] (-) TimerEvent: {}
+[1.612181] (-) TimerEvent: {}
+[1.712889] (-) TimerEvent: {}
+[1.813601] (-) TimerEvent: {}
+[1.914315] (-) TimerEvent: {}
+[2.015072] (-) TimerEvent: {}
+[2.115797] (-) TimerEvent: {}
+[2.216532] (-) TimerEvent: {}
+[2.317257] (-) TimerEvent: {}
+[2.418045] (-) TimerEvent: {}
+[2.518819] (-) TimerEvent: {}
+[2.619532] (-) TimerEvent: {}
+[2.720283] (-) TimerEvent: {}
+[2.821014] (-) TimerEvent: {}
+[2.921737] (-) TimerEvent: {}
+[3.022502] (-) TimerEvent: {}
+[3.123225] (-) TimerEvent: {}
+[3.223944] (-) TimerEvent: {}
+[3.325830] (-) TimerEvent: {}
+[3.429354] (-) TimerEvent: {}
+[3.530089] (-) TimerEvent: {}
+[3.622926] (cecar_lks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.623716] (cecar_lks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.624276] (cecar_lks) StderrLine: {'line': b'   \x1b[01;31m\x1b[Kusleep\x1b[m\x1b[K((2000+100)*1000);\n'}
+[3.624736] (cecar_lks) StderrLine: {'line': b'\n'}
+[3.625191] (cecar_lks) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.625892] (cecar_lks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lks/LKS/mp_lks/ros2_ws/src/cecar_lks/src/hlc.cpp:40:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kfseek\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.626440] (cecar_lks) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kusleep\x1b[m\x1b[K((2000+100)*1000);\n'}
+[3.626884] (cecar_lks) StderrLine: {'line': b'\n'}
+[3.627256] (cecar_lks) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.627627] (cecar_lks) StderrLine: {'line': b'   \x1b[32m\x1b[Kfseek\x1b[m\x1b[K\n'}
+[3.630210] (-) TimerEvent: {}
+[3.730928] (-) TimerEvent: {}
+[3.831658] (-) TimerEvent: {}
+[3.932396] (-) TimerEvent: {}
+[4.033153] (-) TimerEvent: {}
+[4.133908] (-) TimerEvent: {}
+[4.234699] (-) TimerEvent: {}
+[4.335457] (-) TimerEvent: {}
+[4.436223] (-) TimerEvent: {}
+[4.536938] (-) TimerEvent: {}
+[4.637658] (-) TimerEvent: {}
+[4.738910] (-) TimerEvent: {}
+[4.839661] (-) TimerEvent: {}
+[4.940445] (-) TimerEvent: {}
+[5.041178] (-) TimerEvent: {}
+[5.141909] (-) TimerEvent: {}
+[5.242738] (-) TimerEvent: {}
+[5.343472] (-) TimerEvent: {}
+[5.444239] (-) TimerEvent: {}
+[5.544981] (-) TimerEvent: {}
+[5.645725] (-) TimerEvent: {}
+[5.746547] (-) TimerEvent: {}
+[5.847280] (-) TimerEvent: {}
+[5.948049] (-) TimerEvent: {}
+[6.048806] (-) TimerEvent: {}
+[6.149550] (-) TimerEvent: {}
+[6.250296] (-) TimerEvent: {}
+[6.351116] (-) TimerEvent: {}
+[6.362812] (cecar_lks) StdoutLine: {'line': b"CMakeFiles/hlc.dir/build.make:62: recipe for target 'CMakeFiles/hlc.dir/src/hlc.cpp.o' failed\n"}
+[6.367897] (cecar_lks) StderrLine: {'line': b'make[2]: *** [CMakeFiles/hlc.dir/src/hlc.cpp.o] Error 1\n'}
+[6.368850] (cecar_lks) StderrLine: {'line': b'make[1]: *** [CMakeFiles/hlc.dir/all] Error 2\n'}
+[6.369288] (cecar_lks) StdoutLine: {'line': b"CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/hlc.dir/all' failed\n"}
+[6.369711] (cecar_lks) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[6.370132] (cecar_lks) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[6.373342] (cecar_lks) CommandEnded: {'returncode': 2}
+[6.451830] (-) TimerEvent: {}
+[6.553318] (-) TimerEvent: {}
+[6.568582] (cecar_lks) JobEnded: {'identifier': 'cecar_lks', 'rc': 2}
+[6.581473] (-) EventReactorShutdown: {}
